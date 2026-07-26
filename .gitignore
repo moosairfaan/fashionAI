@@ -14,3 +14,9 @@ frontend/dist/
 .pytest_cache/
 *.egg-info/
 .mypy_cache/
+
+# Local dataset (too large for git)
+data/images/
+data/metadata.json
+data/hnsw.pkl
+*.zip

@@ -4,9 +4,9 @@ Visual fashion search engine using CLIP embeddings and a from-scratch HNSW imple
 
 ## Demo
 
-![fashionAI search — HNSW vs brute force side by side](docs/demo.png)
+<video src="docs/demo.mp4" controls playsinline width="100%"></video>
 
-Text query *"red summer dress"* with side-by-side HNSW and brute-force results, plus live latency readout.
+[Download demo video](docs/demo.mp4) · text search with side-by-side HNSW vs brute-force results and live latency readout.
 
 ### Try it locally
 
