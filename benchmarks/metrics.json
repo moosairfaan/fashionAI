@@ -1,0 +1,47 @@
+{
+  "n_embeddings": 2000,
+  "n_queries": 20,
+  "latency_vs_size": [
+    {
+      "dataset_size": 1000,
+      "brute_force_latency_ms": 0.18453125085216016,
+      "hnsw_latency_ms": 0.9934102490660734,
+      "speedup": 0.18575533222617946,
+      "hnsw_build_s": 1.2026750420045573
+    },
+    {
+      "dataset_size": 2000,
+      "brute_force_latency_ms": 0.08532070351066068,
+      "hnsw_latency_ms": 1.066510500095319,
+      "speedup": 0.07999987201535771,
+      "hnsw_build_s": 2.752712374989642
+    }
+  ],
+  "recall_vs_latency": [
+    {
+      "ef_search": 10,
+      "recall_at_10": 0.615,
+      "latency_ms": 0.26742085319710895
+    },
+    {
+      "ef_search": 25,
+      "recall_at_10": 0.72,
+      "latency_ms": 0.6737249976140447
+    },
+    {
+      "ef_search": 50,
+      "recall_at_10": 0.805,
+      "latency_ms": 1.1875604002852924
+    },
+    {
+      "ef_search": 100,
+      "recall_at_10": 0.825,
+      "latency_ms": 3.2066771484096535
+    },
+    {
+      "ef_search": 200,
+      "recall_at_10": 0.8800000000000001,
+      "latency_ms": 9.469545999309048
+    }
+  ]
+}

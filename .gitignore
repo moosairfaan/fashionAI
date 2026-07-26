@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+artifacts/
+*.npy
+*.pkl
+*.npz
+.ipynb_checkpoints/
+frontend/node_modules/
+frontend/dist/
+.pytest_cache/
+*.egg-info/
+.mypy_cache/

@@ -1,0 +1,11 @@
+numpy>=1.26
+Pillow>=10.0
+torch>=2.1
+transformers>=4.40
+datasets>=2.19
+fastapi>=0.111
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+matplotlib>=3.8
+tqdm>=4.66
+pydantic>=2.7
